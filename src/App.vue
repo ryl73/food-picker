@@ -47,7 +47,6 @@ const getRandomLaunchDinner = (
   const totalVariants = [`${randomMeat} c ${randomGarnish}`, randomDish]
 
   const totalIndex = getRandom(totalVariants.length - 1)
-  console.log(totalIndex)
   if (!totalVariants[totalIndex]) return ''
 
   return totalVariants[totalIndex]
