@@ -23,7 +23,7 @@ export const MEAT_VARIANTS = [
 export const GARNISH_VARIANTS = [
   'гречкой',
   'киноа',
-  'чечевицой',
+  'чечевицей',
   'макаронами',
   'картошкой',
   'рисом',

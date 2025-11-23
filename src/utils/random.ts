@@ -16,6 +16,6 @@ export function createUniqueRandomGenerator(max: number) {
   }
 }
 
-export function getRandom(max: number, min = 0) {
-  return Math.floor(Math.random() * (max - min)) + min
+export function getRandom(max: number) {
+  return Math.floor(Math.random() * (max + 1))
 }
